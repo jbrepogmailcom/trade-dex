@@ -14,7 +14,7 @@ python3 trade-dex.py 1 GNO "?" USDC
 exchange unknown amount of USDC for 10 GNO:
 
 ```
-python3 trade-dex.py "?" USDC 1 GNO
+python3 trade-dex.py "?" USDC 10 GNO
 ```
 
 You can also add third another parameter that will check if price is above or below certain rate and if it is, the trade is skipped. The script takes into account fee on sushoswap which is 0.25%
